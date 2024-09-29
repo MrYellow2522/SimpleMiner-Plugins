@@ -1,0 +1,9 @@
+name: SimpleMinerPlugin
+version: 1.0
+main: com.example.minesplugin.MinesPlugin
+api-version: 1.13
+commands:
+  mines:
+    description: Lệnh để quản lý khu mỏ.
+    usage: /<command> <wand|edit|reset|setdrop>
+    aliases: [mine]
